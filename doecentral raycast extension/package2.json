@@ -1,0 +1,60 @@
+{
+  "name": "doecentral",
+  "title": "Dœcentral",
+  "description": "Check all your today's tasks from everywhere",
+  "icon": "oek.png",
+  "author": "webserviceXXL",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "today",
+      "title": "Today Tasks",
+      "subtitle": "dœcentral",
+      "description": "See all your tasks due today.",
+      "mode": "view"
+    },
+    {
+      "name": "tomorrow",
+      "title": "Tomorrow Tasks",
+      "subtitle": "dœcentral",
+      "description": "See all your tasks due tomorrow.",
+      "mode": "view"
+    },
+    {
+      "name": "projects",
+      "title": "Search Projects",
+      "subtitle": "dœcentral",
+      "description": "See your Todoist projects and tasks by project.",
+      "mode": "view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "token",
+      "type": "password",
+      "required": true,
+      "title": "dœcentral Token",
+      "description": "Your dœcentral API key. Find it in your dœcentral API key settings view.",
+      "placeholder": "Enter your dœcentral token"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.25.0",
+    "axios": "^0.21.4",
+    "date-fns": "^2.25.0",
+    "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.0",
+    "@types/react": "^17.0.30",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop"
+  }
+}
