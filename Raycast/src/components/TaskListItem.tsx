@@ -46,9 +46,11 @@ export default function TaskListItem({ task, mode }: TaskListItemProps): JSX.Ele
   const priority = priorities.find((p) => p.value === task.prio);
 
   if (priority) {
-    const icon = priority.value === 1 ? Icon.Circle : { source: Icon.Circle, tintColor: priority.color };
+    //const icon = priority.value === 1 ? Icon.Circle : { source: Icon.Circle, tintColor: priority.color };
     additionalListItemProps.keywords.push(priority.searchKeyword);
-    additionalListItemProps.icon = icon;
+    additionalListItemProps.keywords.push(task.eapp);
+    //additionalListItemProps.icon = icon;
+    additionalListItemProps.icon = "https://www.xn--dcentral-ktb.com/img/icons/" + task.eapp + ".png";
   }
 
   return (

@@ -17,7 +17,7 @@ function TaskList({ isLoading, sections, path, mode = ViewMode.date }: TaskListP
     section.tasks.sort((a, b) => a.order - b.order);
   });
 
-  const placeholder = `Filter tasks by name or priority (e.g p1)`;
+  const placeholder = `Filter tasks by name or source`;
 
   return (
     <TodoistProvider path={path}>

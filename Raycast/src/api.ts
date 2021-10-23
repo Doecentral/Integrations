@@ -5,7 +5,7 @@ import { TaskPayload } from "./types";
 
 export const axiosInstance = axios.create({
   baseURL: "https://api.xn--dcentral-ktb.com",
-  timeout: 1000,
+  timeout: 2220,
   headers: { Authorization: `Bearer ${preferences.token.value}` },
 });
 
