@@ -51,3 +51,7 @@ Raycast lets you control your tools with a few keystrokes. It’s designed to ke
 ### dœcentral
 
 dœcentral is a API-first task aggration service. Get your today's tasks from all your apps and services consolidated and centralized with just one API call. Learn more at https://www.dœcentral.com/
+
+## For developer
+
+To locally run this extension and make changes please check the [Getting started](https://developers.raycast.com/basics/getting-started) guide from Raycast.
