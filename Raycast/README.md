@@ -6,7 +6,7 @@ This extension brings dœcentral to Raycast so that you can check your today'S t
 
 ## Getting started
 
-Before using the command, you need to retrieve your dœcentral API token. You can find it in the [API key settings view](https://app.dœcentral.com/?settings&apikeys)
+Before using the command, you need to retrieve your dœcentral API token. You can find it in the [API key settings view](https://app.dœcentral.com/?settings&apikeys).
 
 ## Features
 
@@ -46,7 +46,8 @@ Assign global hotkeys to commands so that you can quickkly access them. For exam
 
 ### Raycast
 
-
+Raycast lets you control your tools with a few keystrokes. It’s designed to keep you focused. Learn more at https://www.raycast.com/
 
 ### dœcentral
 
+dœcentral is a API-first task aggration service. Get your today's tasks from all your apps and services consolidated and centralized with just one API call. Learn more at https://www.dœcentral.com/
