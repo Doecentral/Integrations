@@ -87,22 +87,6 @@ export default function TaskListItem({ task, mode }: TaskListItemProps): JSX.Ele
             ))}
           </ActionPanel.Submenu>
 
-          <ActionPanel.Submenu
-            icon={Icon.LevelMeter}
-            shortcut={{ modifiers: ["cmd", "shift"], key: "p" }}
-            title="Change priority..."
-          >
-            {priorities.map(({ value, name, color }) => (
-              <ActionPanel.Item
-                key={name}
-                id={name}
-                title={name}
-                icon={{ source: Icon.Circle, tintColor: color }}
-                onAction={() => updateTask(task, { prio: value })}
-              />
-            ))}
-          </ActionPanel.Submenu>
-
           <ActionPanel.Item
             id="deleteTask"
             title="Delete Task"

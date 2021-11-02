@@ -19,13 +19,6 @@
       "subtitle": "dœcentral",
       "description": "See all your tasks due tomorrow.",
       "mode": "view"
-    },
-    {
-      "name": "projects",
-      "title": "Search Projects",
-      "subtitle": "Todoist",
-      "description": "See your Todoist projects and tasks by project.",
-      "mode": "view"
     }
   ],
   "preferences": [
